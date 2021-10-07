@@ -3,7 +3,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon, GlobeIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
+  { name: "Home", href: "/", current: true },
   { name: "About", href: "#", current: false },
 ];
 
