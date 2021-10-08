@@ -7,6 +7,7 @@ import Home from "./components/pages/Home";
 import Alert from "./components/Alert";
 import AlertState from "./context/alert/AlertState";
 import NotFound from "./components/pages/NotFound";
+import About from "./components/pages/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Alert />
               <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
                 <Route exact path="/show/:name/:id" component={Item} />
                 <Route component={NotFound} />
               </Switch>

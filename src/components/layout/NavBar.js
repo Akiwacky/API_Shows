@@ -4,7 +4,7 @@ import { MenuIcon, XIcon, GlobeIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "About", href: "#", current: false },
+  { name: "About", href: "/about", current: false },
 ];
 
 function classNames(...classes) {
